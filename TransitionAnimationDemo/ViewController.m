@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "TraansitionViewController.h"
+#import "PictureViewController.h"
 
 @interface ViewController ()
 
@@ -23,6 +24,10 @@
 - (IBAction)touchTransition:(UIButton *)sender {
     TraansitionViewController *transitionVC = [[TraansitionViewController alloc] init];
     [self.navigationController pushViewController:transitionVC animated:YES];
+}
+- (IBAction)touchPictureView:(UIButton *)sender {
+    PictureViewController *pictureVC = [[PictureViewController alloc] init];
+    [self.navigationController pushViewController:pictureVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

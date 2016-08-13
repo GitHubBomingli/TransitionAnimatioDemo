@@ -19,6 +19,9 @@
 		6358F5BB1D5DA5C3007274F7 /* TraansitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6358F5B91D5DA5C3007274F7 /* TraansitionViewController.m */; };
 		6358F5BC1D5DA5C3007274F7 /* TraansitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6358F5BA1D5DA5C3007274F7 /* TraansitionViewController.xib */; };
 		6398BB921D5EE61400E275D7 /* UIImage+Reflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398BB911D5EE61400E275D7 /* UIImage+Reflection.m */; };
+		6398BBD81D5F08BD00E275D7 /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398BBD61D5F08BD00E275D7 /* PictureViewController.m */; };
+		6398BBD91D5F08BD00E275D7 /* PictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6398BBD71D5F08BD00E275D7 /* PictureViewController.xib */; };
+		6398BBDC1D5F097000E275D7 /* BMLPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6398BBDB1D5F097000E275D7 /* BMLPictureView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,11 @@
 		6398BB8F1D5EB6A000E275D7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		6398BB901D5EE61400E275D7 /* UIImage+Reflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Reflection.h"; sourceTree = "<group>"; };
 		6398BB911D5EE61400E275D7 /* UIImage+Reflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Reflection.m"; sourceTree = "<group>"; };
+		6398BBD51D5F08BD00E275D7 /* PictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
+		6398BBD61D5F08BD00E275D7 /* PictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
+		6398BBD71D5F08BD00E275D7 /* PictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PictureViewController.xib; sourceTree = "<group>"; };
+		6398BBDA1D5F097000E275D7 /* BMLPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMLPictureView.h; sourceTree = "<group>"; };
+		6398BBDB1D5F097000E275D7 /* BMLPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMLPictureView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +124,11 @@
 				6358F5841D5D6F18007274F7 /* AppDelegate.m */,
 				6358F5861D5D6F18007274F7 /* ViewController.h */,
 				6358F5871D5D6F18007274F7 /* ViewController.m */,
+				6398BBD51D5F08BD00E275D7 /* PictureViewController.h */,
+				6398BBD61D5F08BD00E275D7 /* PictureViewController.m */,
+				6398BBD71D5F08BD00E275D7 /* PictureViewController.xib */,
+				6398BBDA1D5F097000E275D7 /* BMLPictureView.h */,
+				6398BBDB1D5F097000E275D7 /* BMLPictureView.m */,
 				6358F5B81D5DA5C3007274F7 /* TraansitionViewController.h */,
 				6358F5B91D5DA5C3007274F7 /* TraansitionViewController.m */,
 				6358F5BA1D5DA5C3007274F7 /* TraansitionViewController.xib */,
@@ -264,6 +277,7 @@
 				6358F5BC1D5DA5C3007274F7 /* TraansitionViewController.xib in Resources */,
 				6358F5901D5D6F18007274F7 /* LaunchScreen.storyboard in Resources */,
 				6358F5B71D5D7027007274F7 /* TransitionVIew.xib in Resources */,
+				6398BBD91D5F08BD00E275D7 /* PictureViewController.xib in Resources */,
 				6358F58D1D5D6F18007274F7 /* Assets.xcassets in Resources */,
 				6358F58B1D5D6F18007274F7 /* Main.storyboard in Resources */,
 			);
@@ -290,7 +304,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6398BBDC1D5F097000E275D7 /* BMLPictureView.m in Sources */,
 				6358F5881D5D6F18007274F7 /* ViewController.m in Sources */,
+				6398BBD81D5F08BD00E275D7 /* PictureViewController.m in Sources */,
 				6358F5BB1D5DA5C3007274F7 /* TraansitionViewController.m in Sources */,
 				6358F5851D5D6F18007274F7 /* AppDelegate.m in Sources */,
 				6398BB921D5EE61400E275D7 /* UIImage+Reflection.m in Sources */,
