@@ -24,7 +24,7 @@
     
     NSMutableArray *images = [NSMutableArray array];
     for (NSInteger index = 0; index != 6; index ++) {
-        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"%ld",index]];
+        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"%ld",(long)index]];
         [images addObject:image];
     }
     

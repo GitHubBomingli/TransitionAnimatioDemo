@@ -31,6 +31,13 @@
                                     <action selector="touchPictureView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OeQ-kA-z6c"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUC-9O-Klv">
+                                <rect key="frame" x="20" y="148" width="130" height="30"/>
+                                <state key="normal" title="折叠效果"/>
+                                <connections>
+                                    <action selector="touchFold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6wU-O4-bJ3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>

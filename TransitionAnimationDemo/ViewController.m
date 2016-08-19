@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "TraansitionViewController.h"
 #import "PictureViewController.h"
+#import "FoldViewController.h"
 
 @interface ViewController ()
 
@@ -28,6 +29,10 @@
 - (IBAction)touchPictureView:(UIButton *)sender {
     PictureViewController *pictureVC = [[PictureViewController alloc] init];
     [self.navigationController pushViewController:pictureVC animated:YES];
+}
+- (IBAction)touchFold:(UIButton *)sender {
+    FoldViewController *foldVC = [[FoldViewController alloc] init];
+    [self.navigationController pushViewController:foldVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

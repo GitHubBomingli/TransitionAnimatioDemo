@@ -1,14 +1,18 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B2F6487D52F7B57CB448BE6BD239BC80AAB79159",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B2F6487D52F7B57CB448BE6BD239BC80AAB79159+++9864B71",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "B2F6487D52F7B57CB448BE6BD239BC80AAB79159" : 0
+    "B2F6487D52F7B57CB448BE6BD239BC80AAB79159+++3F6F255" : 0,
+    "B2F6487D52F7B57CB448BE6BD239BC80AAB79159+++1975CA1" : 0,
+    "B2F6487D52F7B57CB448BE6BD239BC80AAB79159+++9864B71" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "337332D0-F142-4D64-A3AD-9EA626391A45",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "B2F6487D52F7B57CB448BE6BD239BC80AAB79159" : ""
+    "B2F6487D52F7B57CB448BE6BD239BC80AAB79159+++3F6F255" : "",
+    "B2F6487D52F7B57CB448BE6BD239BC80AAB79159+++1975CA1" : "",
+    "B2F6487D52F7B57CB448BE6BD239BC80AAB79159+++9864B71" : "TransitionAnimatioDemo\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "TransitionAnimationDemo",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -17,12 +21,17 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GitHubBomingli\/TransitionAnimatioDemo.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B2F6487D52F7B57CB448BE6BD239BC80AAB79159"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B2F6487D52F7B57CB448BE6BD239BC80AAB79159+++1975CA1"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GitHubBomingli\/TransitionAnimatioDemo.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B2F6487D52F7B57CB448BE6BD239BC80AAB79159"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B2F6487D52F7B57CB448BE6BD239BC80AAB79159+++3F6F255"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/GitHubBomingli\/TransitionAnimatioDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B2F6487D52F7B57CB448BE6BD239BC80AAB79159+++9864B71"
     }
   ]
 }
