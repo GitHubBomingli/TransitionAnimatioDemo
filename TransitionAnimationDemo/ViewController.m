@@ -10,6 +10,7 @@
 #import "TraansitionViewController.h"
 #import "PictureViewController.h"
 #import "FoldViewController.h"
+#import "TransitionSecondController.h"
 
 @interface ViewController ()
 
@@ -33,6 +34,10 @@
 - (IBAction)touchFold:(UIButton *)sender {
     FoldViewController *foldVC = [[FoldViewController alloc] init];
     [self.navigationController pushViewController:foldVC animated:YES];
+}
+- (IBAction)touchTableView:(UIButton *)sender {
+    TransitionSecondController *transition = [[TransitionSecondController alloc] init];
+    [self.navigationController pushViewController:transition animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
